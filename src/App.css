@@ -10,10 +10,6 @@ body {
 
 }
 
-::-webkit-scrollbar {
-  width: 0px;
-}
-
 .right-arrow,
 .left-arrow {
   cursor: pointer;
@@ -134,6 +130,14 @@ body {
     height: 300px;
   }
 
+}
+
+.HorizontalScrollbar {
+  display: flex;
+  padding: 30px 0;
+  flex-direction: row;
+  overflow-x: scroll !important;
+  overflow-y: hidden;
 }
 
 @media screen and (max-width:400px) {
